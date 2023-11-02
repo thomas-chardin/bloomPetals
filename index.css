@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+      margin: 0; 
+      
+        padding: 0;
+    }
+      
+    .navbar {
+        display: flex;
+        position: sticky; 
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+        cursor: pointer;
+    }
+      
+    .nav-list {
+        width: 50%;
+        display: flex;
+    }
+      
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+      
+    .nav-list li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+      
+    .nav-list li a:hover {
+        color: black;
+    }
+      
+    .rightNav {
+        width: 50%;
+        text-align: right;
+    }
+      
+    #search {
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid grey;
+        border-radius: 25px;
+    }
+      
+    .background {
+        background: grey
+    }
+
+    #logo{
+        font-size: xx-large;
+        padding: 2ch;
+        text-align: center;
+        font-family: 'Pacifico';
+    }
+
+    #lampions img{
+   float:left;
+   width: 200px;
+   height: 145px;
+    }
+
+    #Ligne{
+        padding: 10% 0;
+    }
