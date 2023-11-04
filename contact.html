@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +10,31 @@
 
 <body>
     <header>
-        <nav class="BarreDeNav">
-            <a href="index.html">Accueil</a>
-            <a href="entreprise.html">Entreprise</a>
-            <a href="realisation.html">Réalisation</a>
-            <a href="contact.html">Contact</a>
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search" />
+            </div>
         </nav>
-        <h1>
-            Contactez-nous
-        </h1>
     </header>
     <section>
-
         <head>
-            <h1>
+            <h1 id="text">
                 Remplissez ce formulaire pour nous contacter
             </h1>
         </head>
-        <article>
+        <article id="rectangle-arrondi">
             <label for="CivilitéSéléction">Choisisez votre civilité :</label>
             <select name="pets" id="CivilitéSéléction">
                 <option value="Civilité">----</option>
                 <option value="Mr.">Mr.</option>
                 <option value="Mme.">Mme.</option>
             </select>
-            <ul>
                 <li>
                     <label for="Nom">Nom</label>
                     <input type="Nom" id="Nom" name="NomUtilisateur">
@@ -46,10 +47,9 @@
                     <label for="AdressePostal">Adresse Postal</label>
                     <input type="Adresse" id="AdressePostal" name="AdresseUtilisateur">
                 </li>
-            </ul>
             <article>
                 <input type="checkbox" id="Politique" name="PolitiqueDeConfidantialité" unchecked />
-                <label for="Politique">Accéptéez vous notre Politique de confidantialité</label>
+                <label for="Politique">Accepter vous notre Politique de confidentialité</label>
             </article>
             <input type="submit" value="Envoyer le formulaire" />
         </article>
